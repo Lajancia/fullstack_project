@@ -3,7 +3,7 @@
     <div>
       <div class="absolute inset-y-0 right-0  h-full w-4/5">
         <div class="text-white">
-          updated-2021-12-10 this is the result of test change accur
+          last test to be done. yeeehhhh
         </div>
       </div>
     </div>
