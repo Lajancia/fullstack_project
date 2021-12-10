@@ -2,13 +2,13 @@
 RewriteEngine on
 
 RewriteCond %{HTTP_HOST} ^(www.)?lajanciadev.com$
-RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond %{REQUEST_URI} !^/dist/
 
 RewriteCond %{index.html} !-f
 RewriteCond %{index.html} !-d
 
-RewriteRule ^(.*)$ /public/$1
+RewriteRule ^(.*)$ /dist/$1
 
 RewriteCond %{HTTP_HOST} ^(www.)?lajanciadev.com$
 
-RewriteRule ^(/)?$ public/index.html [L]
+RewriteRule ^(/)?$ dist/index.html [L]
