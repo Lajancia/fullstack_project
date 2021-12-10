@@ -22,5 +22,5 @@ module.exports = {
       } 
     } 
   },
-  outputDir: '../front_end/public', 
+  outputDir: './public', 
 }
