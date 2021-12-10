@@ -3,7 +3,7 @@
     <div>
       <div class="absolute inset-y-0 right-0  h-full w-4/5">
         <div class="text-white">
-          last test to be done. yeeehhhh
+          last test to be done. yeeehhhh please...
         </div>
       </div>
     </div>
