@@ -22,5 +22,5 @@ module.exports = {
       } 
     } 
   },
-  outputDir: '../fullstack_project/public_html', 
+  outputDir: '../front_end/public_html', 
 }
