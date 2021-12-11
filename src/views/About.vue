@@ -5,6 +5,9 @@
         <div class="text-white">
           I don't know what's the problem....2021 is over
         </div>
+        <div class="text-white">
+          <router-link to="/object1">object1</router-link>
+        </div>
       </div>
     </div>
   </div>
