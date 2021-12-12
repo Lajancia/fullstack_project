@@ -231,14 +231,14 @@ this._threejs.setClearColor( 0x000000, 0 ); //default
       }
       this._controls = new BasicCharacterControls(params);
 
-      const anim = new FBXLoader();
-      anim.setPath('./resources/zombie/');
-      anim.load('treepark.fbx', (anim) => {
-        const m = new THREE.AnimationMixer(fbx);
-        this._mixers.push(m);
-        const idle = m.clipAction(anim.animations[0]);
-        idle.play();
-      });
+      // const anim = new FBXLoader();
+      // anim.setPath('./resources/zombie/');
+      // anim.load('treepark.fbx', (anim) => {
+      //   const m = new THREE.AnimationMixer(fbx);
+      //   this._mixers.push(m);
+      //   const idle = m.clipAction(anim.animations[0]);
+      //   idle.play();
+      // });
       this._scene.add(fbx);
     });
   }
