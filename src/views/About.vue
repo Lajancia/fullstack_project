@@ -46,7 +46,7 @@
   </head>
   <body class="absolute bottom-0 right-0 h-full w-3/5 ">
     <div>
-      <a href="http://3dobj.lajanciadev.com/" class="text-white"
+      <a href="http://test.lajanciadev.com/" class="text-white"
         >This is part 3d object</a
       >
     </div>
