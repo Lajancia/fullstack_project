@@ -44,11 +44,22 @@
       </div>
     </div>
   </head>
-  <body class="absolute bottom-0 right-0 h-full w-3/5 ">
-    <div>
-      <a href="http://test.lajanciadev.com/" class="text-white"
-        >This is part 3d object</a
-      >
+  <body class="absolute bottom-0 right-0 h-full w-3/5">
+    <div class="m-10 py-2">
+      <div class="my-10">
+        <a
+          href="http://test.lajanciadev.com/"
+          class="text-white text-3xl border-double border-4 border-white p-2 px-4 my-4 hover:text-yellow-500 hover:border-yellow-500"
+          >This is Park</a
+        >
+      </div>
+      <div>
+        <a
+          href="http://shoes.lajanciadev.com/"
+          class="text-white text-3xl border-double border-4 border-white p-2 my-2 hover:text-yellow-500 hover:border-yellow-500"
+          >This is Shoes</a
+        >
+      </div>
     </div>
   </body>
 </template>

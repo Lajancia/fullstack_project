@@ -1,5 +1,6 @@
 <template>
   <div>
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico" />
     <div class="relative">
       <div class="absolute inset-y-0 left-0 h-full w-1/5 ">
         <div class="h-screen w-48 px-8 ">
