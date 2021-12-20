@@ -118,7 +118,7 @@
   position: absolute;
   left: 0;
   height: 100%;
-  background-color: orange;
+  background-color: black;
   width: 100%;
   border-left: 2px solid white;
   animation: typing 3s steps(10) infinite;

@@ -20,7 +20,9 @@
     "vue": "^3.0.0",
     "vue-axios": "^3.3.7",
     "vue-cli-plugin-tailwind": "~2.0.6",
+    "vue-flip": "^2.2.0",
     "vue-head": "^2.2.0",
+    "vue-info-card": "^0.1.4",
     "vue-meta": "^2.4.0",
     "vue-router": "^4.0.0-0"
   },
@@ -36,7 +38,7 @@
     "sass": "^1.45.0",
     "sass-loader": "^10.1.1",
     "vue-loader": "^15.7.2",
-    "vue-template-compiler": "^2.6.10",
+   
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },

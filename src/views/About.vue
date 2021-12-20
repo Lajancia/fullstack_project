@@ -45,20 +45,48 @@
     </div>
   </head>
   <body class="absolute bottom-0 right-0 h-full w-3/5">
-    <div class="m-10 py-2">
-      <div class="my-10">
-        <a
-          href="http://test.lajanciadev.com/"
-          class="text-white text-3xl border-double border-4 border-white p-2 px-4 my-4 hover:text-yellow-500 hover:border-yellow-500"
-          >This is Park</a
-        >
-      </div>
-      <div>
-        <a
-          href="http://shoes.lajanciadev.com/"
-          class="text-white text-3xl border-double border-4 border-white p-2 my-2 hover:text-yellow-500 hover:border-yellow-500"
-          >This is Shoes</a
-        >
+    <div class="my-10 py-10 mr-20">
+      <div class="grid justify-items-end">
+        <div class="flex items-stretch p-5 mx-5">
+          <div class="mr-5">
+            <vue-flip active-click="" width="200px" height="50px">
+              <template v-slot:front class="front">
+                <div
+                  class="text-white p-20  border-2 border-yellow-500 rounded-lg bg-yellow-500"
+                >
+                  <div>this is Park card</div>
+                </div>
+              </template>
+              <template v-slot:back class="back">
+                <div
+                  class="text-yellow-500 p-20  border-2 border-yellow-500 rounded-lg bg-white"
+                >
+                  <div>this is Shoes card</div>
+                </div>
+              </template>
+            </vue-flip>
+          </div>
+          <vue-flip active-click="" width="200px" height="50px">
+            <template v-slot:front class="front">
+              <div
+                class="text-white p-20  border-2 border-yellow-500 rounded-lg "
+                id="front"
+              >
+                <div>front</div>
+                <div>this is card</div>
+              </div>
+            </template>
+            <template v-slot:back class="back">
+              <div
+                class="text-yellow-500 p-20  border-2 border-yellow-500 rounded-lg bg-white"
+                id="back"
+              >
+                <div>back</div>
+                <div>tthis is 3D Shoes</div>
+              </div>
+            </template>
+          </vue-flip>
+        </div>
       </div>
     </div>
   </body>
@@ -69,4 +97,16 @@ h1 {
   color: white;
   text-align: center;
 }
+#front {
+  background-image: url("../assets/coffee.jpg");
+}
 </style>
+
+<script>
+import VueFlip from "vue-flip";
+export default {
+  components: {
+    "vue-flip": VueFlip,
+  },
+};
+</script>
