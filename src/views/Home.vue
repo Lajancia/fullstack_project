@@ -1,5 +1,5 @@
 <template>
-  <head class="absolute top-0 right-0 h-40 w-3/5">
+  <head class="absolute top-0 right-0 h-40 w-3/5 ">
     <div class="grid justify-items-end">
       <div class="flex items-stretch p-5 mx-5">
         <a href="https://www.instagram.com/lajancia/" class="mx-3"
@@ -45,10 +45,17 @@
     </div>
   </head>
   <body class="absolute bottom-0 right-0 h-full w-3/5 ">
-    <div class="py-40 mx-10">
+    <div class="py-20 mx-10">
+      <div class="text-white text-6xl">
+        Hello.
+      </div>
+      <div class="text-white text-6xl mb-5">
+        My name is
+        <span class="text-yellow-500">Soomin Hwang</span>
+      </div>
       <div class=" flex items-stretch ">
         <div class="wrapper">
-          <div id="static-txt" class="text-white px-2 mr-10 flex">
+          <div id="static-txt" class="text-white pr-2 flex">
             I'M
           </div>
           <ul id="dynamic-txts" class="text-yellow-500 ">
@@ -59,11 +66,73 @@
           </ul>
         </div>
       </div>
-      <div></div>
+      <div class="text-white">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium,
+        accusamus laudantium. Qui pariatur saepe fuga molestiae nemo, aperiam
+        nihil laudantium iste obcaecati asperiores beatae facilis architecto
+        vitae commodi voluptates minima.
+      </div>
+      <div class="text-center my-20">
+        <button
+          class="rounded-full text-white text-3xl bg-yellow-500 border-8 border-yellow-500"
+        >
+          Contect
+        </button>
+      </div>
     </div>
   </body>
 </template>
 
+<style scoped>
+* {
+  /* background-image: url("../assets/coffee.jpg"); */
+  font-family: "Anton", sans-serif;
+}
+.wrapper {
+  display: flex;
+}
+.wrapper #static-txt {
+  font-size: 30px;
+}
+.wrapper #dynamic-txts {
+  line-height: 45px;
+  height: 45px;
+  overflow: hidden;
+}
+#dynamic-txts li {
+  list-style: none;
+  position: relative;
+  font-size: 30px;
+  font-weight: 125;
+  top: 0;
+  position: relative;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -180px;
+  }
+}
+#dynamic-txts li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background-color: orange;
+  width: 100%;
+  border-left: 2px solid white;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 7px);
+  }
+  100% {
+    left: 0;
+  }
+}
+</style>
 <script>
 export default {
   name: "Home",
