@@ -44,9 +44,9 @@
       </div>
     </div>
   </head>
-  <body class="absolute bottom-0 right-0 h-full w-3/5 ">
+  <body class="absolute bottom-0 right-0 h-full ">
     <div class="py-20 mx-10">
-      <div class="text-white text-6xl">
+      <div class="text-white text-6xl mt-10">
         Hello.
       </div>
       <div class="text-white text-6xl mb-5">
@@ -73,11 +73,11 @@
         I made. Please understand that some categories are not ready.
       </div>
       <div class="text-center my-20">
-        <button
+        <router-link
+          to="/resume"
           class="rounded-full text-white text-3xl bg-yellow-500 border-8 border-yellow-500 px-2"
+          >Resume</router-link
         >
-          About
-        </button>
       </div>
     </div>
   </body>
