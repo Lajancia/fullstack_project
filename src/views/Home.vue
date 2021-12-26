@@ -67,16 +67,16 @@
         </div>
       </div>
       <div class="text-white">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium,
-        accusamus laudantium. Qui pariatur saepe fuga molestiae nemo, aperiam
-        nihil laudantium iste obcaecati asperiores beatae facilis architecto
-        vitae commodi voluptates minima.
+        This Webpage is for various private front end test and back end test.
+        Have displayed 3D modeling and illustrations, js aninations, project
+        summaries and so on. You can freely check out the projects and arts that
+        I made. Please understand that some categories are not ready.
       </div>
       <div class="text-center my-20">
         <button
-          class="rounded-full text-white text-3xl bg-yellow-500 border-8 border-yellow-500"
+          class="rounded-full text-white text-3xl bg-yellow-500 border-8 border-yellow-500 px-2"
         >
-          Contect
+          About
         </button>
       </div>
     </div>

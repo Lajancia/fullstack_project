@@ -7,7 +7,8 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import VCalendar from 'v-calendar';
 import router from './router'
-
+import PerfectScrollbar from 'vue3-perfect-scrollbar'
+import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css'
 
 // createApp(App).mount('#app')
 
@@ -15,6 +16,7 @@ import router from './router'
 const app = createApp(App).use(router)
 
 app.use(VueAxios, axios)
+app.use(PerfectScrollbar)
 app.use(ElementPlus)
 app.use(VCalendar, {})
 app.mount('#app')

@@ -1,5 +1,8 @@
 <template class="background">
-  <div class="h-screen bg-gradient-to-r from-dark to-dark_green">
+  <div
+    class="h-screen bg-gradient-to-r from-dark to-dark_green"
+    id="background"
+  >
     <div class="bg-container">
       <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico" />
       <div class="relative ">
@@ -143,6 +146,7 @@
 
 <script>
 export default {
+  components: {},
   methods: {
     toggle() {
       this.open = !this.open;
@@ -151,10 +155,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 * {
-  /* background-image: url("./assets/coffee.jpg"); */
+  /* background-color: black; */
   font-family: "Anton", sans-serif;
 }
 

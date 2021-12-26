@@ -24,7 +24,8 @@
     "vue-head": "^2.2.0",
     "vue-info-card": "^0.1.4",
     "vue-meta": "^2.4.0",
-    "vue-router": "^4.0.0-0"
+    "vue-router": "^4.0.0-0",
+    "vue3-perfect-scrollbar": "^1.5.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -38,7 +39,6 @@
     "sass": "^1.45.0",
     "sass-loader": "^10.1.1",
     "vue-loader": "^15.7.2",
-   
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
