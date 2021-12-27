@@ -45,136 +45,65 @@
     </div>
   </head>
   <body class="absolute bottom-0 right-0 h-full ">
-    <div class="py-20 mx-10">
+    <div class="py-20 mr-10">
       <div class="text-white text-6xl mb-5 mt-10">
         About
         <span class="text-yellow-500">Soomin Hwang</span>
       </div>
+
       <perfect-scrollbar>
-        <div class="h-96">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Dolor tenetur explicabo eius ut impedit cumque necessitatibus,
-            voluptatem eveniet nesciunt totam obcaecati sit asperiores
-            repellendus, accusantium harum deleniti esse adipisci autem, nemo
-            perspiciatis possimus atque. Deserunt deleniti sequi dolore
-            suscipit. Nihil assumenda numquam quis dolor minima voluptatem
-            obcaecati aperiam deserunt reiciendis! Dignissimos expedita cumque
-            ratione deleniti tempore dolore quod, sed, porro id facere
-            exercitationem soluta sit esse et earum quidem nemo fugit aliquid
-            repellendus. Dicta amet quos corrupti minima autem unde molestiae
-            iusto facere ad magni aliquid atque quam incidunt maiores enim nam
-            aut cumque odio, hic itaque. Harum necessitatibus ex fuga dolor
-            animi ipsa explicabo numquam, illo illum. Autem, laudantium rem
-            labore voluptatibus eum, ullam molestiae voluptates unde veritatis
-            veniam id vel aliquam debitis ab excepturi vitae in, praesentium
-            expedita neque nesciunt perferendis aspernatur nostrum placeat.
-            Sint, velit. Laboriosam soluta nesciunt sed dolorem? Similique animi
-            fugit molestias saepe error aspernatur, necessitatibus nulla non
-            nisi in sequi obcaecati reprehenderit suscipit distinctio vero
-            reiciendis provident quae quia cum dolore quibusdam molestiae unde
-            cumque? Cupiditate totam dolorem accusantium nostrum numquam
-            perferendis nulla ipsam quibusdam, sapiente rerum amet, a similique,
-            tempore ipsum? Fugit laudantium quisquam molestiae nihil officiis
-            obcaecati, ipsam aspernatur blanditiis esse deleniti id maxime
-            accusamus vitae. Excepturi iusto aliquid quam voluptatibus minus et
-            consequuntur obcaecati cupiditate esse aut? At tempora vero hic
-            autem reprehenderit. Sapiente distinctio aperiam aliquam magnam,
-            quibusdam id repellendus. Nulla, commodi ad, recusandae vel expedita
-            consequuntur cupiditate odit blanditiis amet quas est dicta dolorum
-            iusto maxime tempore. Animi eligendi cum sapiente magnam facilis
-            aspernatur facere ullam, rerum, laborum earum deserunt similique.
-            Odio accusamus, facilis obcaecati reprehenderit sapiente dolorum
-            doloribus illo ducimus laborum dicta voluptatibus minima ratione rem
-            dignissimos ea voluptatum, incidunt nihil tempore tenetur iste ad,
-            laboriosam quibusdam cupiditate. Nisi nostrum eveniet provident
-            possimus culpa distinctio praesentium adipisci explicabo vitae at
-            fuga, laudantium nihil repudiandae. Ipsa, quas adipisci. Cumque
-            porro nostrum itaque saepe et, obcaecati, aliquam officiis sapiente
-            fugiat voluptate optio nisi dignissimos consectetur facere
-            aspernatur in voluptas corrupti. Sequi, atque voluptas. Sunt, in aut
-            adipisci quisquam, consequuntur voluptatibus accusantium iusto
-            mollitia asperiores doloribus eius tenetur veniam magni beatae qui
-            cupiditate perspiciatis maiores facilis obcaecati. Id, voluptatum
-            dignissimos accusamus sed veritatis pariatur a dolore repudiandae
-            eum perspiciatis atque et quam expedita sequi? Tenetur, repudiandae
-            obcaecati commodi mollitia exercitationem animi iure quibusdam
-            necessitatibus. Ex, eligendi, facere ipsum at, perspiciatis eveniet
-            voluptatibus perferendis quia accusamus doloribus deleniti ea nisi
-            debitis minus possimus tempora omnis repudiandae! Nisi, qui
-            exercitationem atque vero veritatis nulla deleniti! Deleniti
-            quisquam praesentium aut nobis deserunt animi? Est iste nihil illum
-            ea beatae natus eligendi vero unde quos consequatur architecto
-            officiis voluptatibus, magni, corporis illo voluptas quidem.
-            Repellendus, similique? Facilis fugit recusandae aperiam quasi
-            mollitia, deserunt repudiandae aspernatur a! Numquam recusandae vero
-            in a obcaecati sequi assumenda doloremque blanditiis et. Mollitia
-            quod at ipsa cupiditate eveniet fugiat laboriosam! Blanditiis
-            impedit, officiis eaque molestiae beatae distinctio, quaerat esse
-            quibusdam molestias est nisi odio quia. Omnis, magni. Repellat porro
-            accusamus in ullam modi veniam quas natus vero animi possimus quia
-            eius repellendus corrupti atque rem incidunt at tenetur, nam soluta,
-            quae sunt delectus. Quibusdam est numquam eum accusantium magnam
-            incidunt eligendi nisi explicabo tenetur voluptas. Cumque nisi
-            excepturi mollitia blanditiis alias explicabo ipsa, impedit dolores
-            soluta suscipit velit dolorum rerum perferendis accusantium
-            similique? Iure, facere expedita. Nobis architecto earum molestiae
-            explicabo, recusandae ut voluptate alias nam cupiditate nulla
-            deserunt asperiores id expedita iste est dolor natus vero placeat
-            saepe hic reprehenderit illum omnis debitis aliquid! Officiis
-            aliquid sint ullam possimus nihil explicabo magni ipsum! Officiis
-            excepturi consequuntur necessitatibus aperiam veniam mollitia omnis
-            obcaecati aspernatur. Officiis debitis laudantium fuga repellendus
-            non tenetur velit suscipit veniam ducimus porro quisquam placeat
-            amet maxime rem molestias, soluta exercitationem nam. Saepe unde
-            earum suscipit at expedita cupiditate, aperiam iste distinctio
-            consequatur minima beatae velit omnis ducimus tempora eos sed
-            aliquid id dolor fugit neque vel possimus. Facilis ducimus quos
-            voluptatibus repudiandae vel, perferendis porro, ex eius nobis sequi
-            dolorem? Expedita modi soluta voluptatibus officia iusto sunt qui,
-            veniam, tempora fugiat perferendis corrupti ipsum, quibusdam totam
-            quam praesentium sapiente nulla aut error aliquid ipsa! Quo dolorem
-            aut hic animi inventore fuga minus, incidunt deleniti sequi impedit.
-            Quibusdam sint iure, inventore ab molestias vero ex eos? Repudiandae
-            accusamus inventore ad veniam. Reprehenderit impedit molestiae
-            sapiente obcaecati vero minus. Doloremque officiis corrupti dolores
-            molestiae error doloribus! Iste at accusantium maiores voluptate
-            modi ad laudantium incidunt. Adipisci atque animi unde aut ullam
-            ratione, ducimus nam quisquam, eveniet dolore blanditiis ea eligendi
-            cupiditate doloribus itaque ipsum neque cum cumque, perferendis iure
-            sequi fugiat similique consectetur. Rem commodi dolor doloribus
-            alias aut non accusantium rerum voluptates quasi? Voluptatem, dicta.
-            Doloremque beatae eius quasi sapiente amet accusantium ipsa, maxime
-            sit porro rerum sint molestias deleniti rem, voluptates ipsam
-            provident odio iure. Corporis incidunt enim inventore voluptatum
-            aliquid. Recusandae vitae quae repudiandae odio aut animi, eius,
-            nostrum ad obcaecati temporibus in amet magni atque! Quod id quam
-            nesciunt consequuntur blanditiis minus atque architecto delectus
-            possimus esse voluptatum magni consectetur, inventore voluptate odit
-            totam magnam molestias officia tempora nobis sit distinctio suscipit
-            dolorum? Suscipit, amet quibusdam, ad mollitia reiciendis eligendi
-            eum illo maiores aut tenetur dicta! Voluptatibus autem fuga nam
-            repudiandae ea consectetur rem perferendis quisquam qui officiis
-            impedit quibusdam aperiam culpa voluptate eum quod nostrum, tempora
-            repellat animi. Tempore fugit possimus amet reprehenderit quae
-            laudantium velit iure architecto nemo aliquid! Dolorem quam aperiam
-            impedit neque in aliquid laudantium at eligendi recusandae officiis
-            fugiat eveniet id repellendus dolorum cumque tempora, vitae eum
-            dolor esse? Iusto, quam esse, culpa quia dolorum doloribus iure
-            excepturi tempore numquam neque ab asperiores atque. Vero,
-            voluptatibus accusantium corrupti quasi sapiente cupiditate eveniet
-            nostrum illum tempore quis blanditiis debitis veniam iusto natus
-            culpa optio ipsa ut magni impedit repudiandae enim! Nesciunt non
-            velit accusantium sapiente magni veniam ex provident quos culpa
-            deleniti mollitia quas voluptatibus sed ducimus accusamus aperiam
-            cumque ipsam fuga eaque, placeat laboriosam distinctio excepturi
-            quod. Dignissimos temporibus perspiciatis amet repellendus, impedit
-            nihil quaerat placeat ipsam ipsum necessitatibus. Aut at beatae
-            temporibus veniam natus tempora, odit iste quis.
-          </p>
+        <div class="h-96 text-white">
+          <div class="text-3xl">Introduce</div>
+          <div>
+            안녕하세요. 행동력 있고 계획적인 백엔드 개발자를 꿈꾸는 황수민
+            입니다. 개발 트렌드와 디자인에 관심이 많아 다양한 개발 활동과 함께
+            디자인 활동을 하고 있습니다. 디자인 활동 중 브로드웨이브에서 처음
+            웹사이트 디자인을 통해 프론트엔드를 접하고 난 뒤, 웹 프로그래밍을
+            공부하게 되었으며, 이후 여러 대외활동을 진행하면서 백엔드에 관심을
+            가지게 되었습니다. 현재 저는 백엔드 프로그래머를 목표로 개발자가
+            되기 위한 기술력을 갖출 수 있도록 python, node.js를 사용하는 방법과
+            서버를 구축하고 데이터베이스를 이용하는 등의 학습과 함께, 데이터
+            청년 캠퍼스와 캡스톤 디자인 등 프로젝트에 참여하여 팀 프로젝트
+            경험을 쌓고 있습니다. 또한, 개발 트렌드에 뒤쳐지지 않도록 블록체인과
+            NFT 개발에도 관심을 가지고 개발 활동을 하고 있습니다.
+          </div>
+          <br />
+          <div class="text-3xl">Education</div>
+          <div>
+            한국외국어대학교 (2018 ~ 2021년 6월) | 컴퓨터전자시스템공학부
+            (전공심화) 스페인통번역학과 (부전공)
+            <br />
+            2020.08.17 ~ 2020.08.28 | 여름방학 AI 집중 캠프-딥러닝 이론 및 실습
+            <br />
+            202106.28 ~ 2021.08.31 | 데이터 청년 캠퍼스 자연어처리 기반 딥러닝
+            기술 융합 과정
+          </div>
+          <br />
+          <div class="text-3xl">Certification</div>
+          <div>데이터 분석 준전문가(ADSP)</div>
+          <div>Toeic 845</div>
+          <br />
+          <div class="text-3xl">Stacks</div>
+          <div>
+            Frontend: HTML, CSS, Vue.js, javascript
+            <br />
+            Backend: Python, Node.js
+            <br />
+            DevOps: MySQL
+            <br />
+            Collaboration: Slack, Github, Notion
+            <br />
+            Other: Blender, Procreate
+          </div>
+          <br />
+          <div class="text-3xl">Projects</div>
+          <br />
+          <div class="text-3xl">Activities</div>
         </div>
       </perfect-scrollbar>
+      <div class="text-lg text-white my-10">
+        <span class="text-yellow-500"> email :</span> kie6974@gmail.com
+      </div>
     </div>
   </body>
 </template>
@@ -186,4 +115,11 @@ export default {
   },
 };
 </script>
-<style src="vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css" />
+
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+* {
+  font-family: "Do Hyeon", sans-serif;
+}
+</style>
