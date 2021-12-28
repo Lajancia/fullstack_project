@@ -44,7 +44,7 @@
       </div>
     </div>
   </head>
-  <body class="absolute bottom-0 right-0 h-full w-3/5">
+  <body class="absolute bottom-0 right-0 h-full w-4/5">
     <div class="my-10 py-10 mr-20">
       <div class="grid justify-items-end">
         <div class="flex items-stretch p-5 mx-5">
@@ -52,40 +52,68 @@
             <vue-flip active-click="" width="200px" height="50px">
               <template v-slot:front class="front">
                 <div
-                  class="text-white p-20  border-2 border-yellow-500 rounded-lg bg-yellow-500"
+                  class="text-white p-20  bg-gradient-to-r from-yellow-500 to-pink-500 rounded-lg"
                 >
-                  <div>this is Park card</div>
+                  <div>Park</div>
                 </div>
               </template>
               <template v-slot:back class="back">
                 <div
                   class="text-yellow-500 p-20  border-2 border-yellow-500 rounded-lg bg-white"
                 >
-                  <div>this is Shoes card</div>
+                  <div>WebGL Three.js Blender</div>
+                  <div class="rounded-md bg-yellow-500 text-white p-2 mt-5">
+                    <a href="http://test.lajanciadev.com/">Click!</a>
+                  </div>
                 </div>
               </template>
             </vue-flip>
           </div>
-          <vue-flip active-click="" width="200px" height="50px">
-            <template v-slot:front class="front">
-              <div
-                class="text-white p-20  border-2 border-yellow-500 rounded-lg "
-                id="front"
-              >
-                <div>front</div>
-                <div>this is card</div>
-              </div>
-            </template>
-            <template v-slot:back class="back">
-              <div
-                class="text-yellow-500 p-20  border-2 border-yellow-500 rounded-lg bg-white"
-                id="back"
-              >
-                <div>back</div>
-                <div>tthis is 3D Shoes</div>
-              </div>
-            </template>
-          </vue-flip>
+          <div class="mr-5">
+            <vue-flip active-click="" width="200px" height="50px">
+              <template v-slot:front class="front">
+                <div
+                  class="text-white p-20  bg-gradient-to-r from-yellow-500 to-pink-500 rounded-lg "
+                  id="front"
+                >
+                  <div>Shoes</div>
+                </div>
+              </template>
+              <template v-slot:back class="back">
+                <div
+                  class="text-yellow-500 p-20  border-2 border-yellow-500 rounded-lg bg-white"
+                  id="back"
+                >
+                  <div>This is 3D Shoes</div>
+                  <div class="rounded-md bg-yellow-500 text-white p-2 mt-5">
+                    <a href="http://shoes.lajanciadev.com/">Click!</a>
+                  </div>
+                </div>
+              </template>
+            </vue-flip>
+          </div>
+          <div class="mr-5">
+            <vue-flip active-click="" width="200px" height="50px">
+              <template v-slot:front class="front">
+                <div
+                  class="text-white p-20  bg-gradient-to-r from-yellow-500 to-pink-500 rounded-lg"
+                >
+                  <div>Gallery</div>
+                </div>
+              </template>
+              <template v-slot:back class="back">
+                <div
+                  class="text-yellow-500 p-20  border-2 border-yellow-500 rounded-lg bg-white"
+                >
+                  <div>This is Gallery. Made with WebGL Three.js</div>
+
+                  <div class="rounded-md bg-yellow-500 text-white p-2 mt-5">
+                    <a href="http://gallery.lajanciadev.com/">Click!</a>
+                  </div>
+                </div>
+              </template>
+            </vue-flip>
+          </div>
         </div>
       </div>
     </div>
@@ -96,9 +124,6 @@
 h1 {
   color: white;
   text-align: center;
-}
-#front {
-  background-image: url("../assets/coffee.jpg");
 }
 </style>
 
