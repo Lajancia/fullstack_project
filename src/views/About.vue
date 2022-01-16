@@ -96,7 +96,7 @@
             <vue-flip active-click="" width="200px" height="50px">
               <template v-slot:front class="front">
                 <div
-                  class="text-white p-20  bg-gradient-to-r from-yellow-500 to-pink-500 rounded-lg"
+                  class="text-white p-20  bg-gradient-to-r hover:bg-gradient-to-l from-yellow-500 to-pink-500 rounded-lg"
                 >
                   <div>Gallery</div>
                 </div>

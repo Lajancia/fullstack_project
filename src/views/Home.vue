@@ -1,5 +1,5 @@
 <template>
-  <head class="absolute top-0 right-0 h-40 w-3/5 ">
+  <head class="absolute top-0 right-0 h-40 w-3/5">
     <div class="grid justify-items-end">
       <div class="flex items-stretch p-5 mx-5">
         <a href="https://www.instagram.com/lajancia/" class="mx-3"
@@ -73,10 +73,10 @@
         I made. Please understand that some categories are not ready.
       </div>
       <div class="text-center my-20">
-        <router-link
-          to="/resume"
+        <a
+          href="https://lajanciadev.com/#/about"
           class="rounded-full text-white text-3xl bg-yellow-500 border-8 border-yellow-500 px-2"
-          >Resume</router-link
+          >Resume</a
         >
       </div>
     </div>
