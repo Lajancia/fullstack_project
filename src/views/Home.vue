@@ -74,7 +74,7 @@
       </div>
       <div class="text-center my-20">
         <a
-          href="https://lajanciadev.com/#/about"
+          href="https://lajanciadev.com/#/resume"
           class="rounded-full text-white text-3xl bg-yellow-500 border-8 border-yellow-500 px-2"
           >Resume</a
         >
