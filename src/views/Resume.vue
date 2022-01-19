@@ -46,7 +46,7 @@
   </head>
   <body class="absolute bottom-0 right-0 h-full ">
     <div class="py-20 mr-10">
-      <div class="text-white text-6xl mb-5 mt-10">
+      <div class="text-white text-6xl pb-5">
         About
         <span class="text-yellow-500">Soomin Hwang</span>
       </div>
@@ -101,7 +101,7 @@
           <div class="text-3xl">Activities</div>
         </div>
       </perfect-scrollbar>
-      <div class="text-lg text-white my-10">
+      <div class="text-lg text-white mt-10">
         <span class="text-yellow-500"> email :</span> kie6974@gmail.com
       </div>
     </div>
