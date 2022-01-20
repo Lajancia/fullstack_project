@@ -55,17 +55,17 @@
       </div>
       <div class=" flex items-stretch ">
         <div class="wrapper">
-          <div id="static-txt" class="text-white pr-2 flex">
+          <h1 class="text-white pr-2 flex text-4xl mb-2">
             I'M
-          </div>
-          <ul id="dynamic-txts" class="text-yellow-500 ">
-            <li><span>Lajancia</span></li>
-            <li><span>Developer</span></li>
-            <li><span>Writer</span></li>
-            <li><span>Illustrator</span></li>
-          </ul>
+            <span
+              class="txt-rotate text-yellow-500 ml-2"
+              data-period="2000"
+              data-rotate='[ " Lajancia", " Developer", " Writer", " Illustrator"]'
+            ></span>
+          </h1>
         </div>
       </div>
+
       <div class="text-white">
         This Webpage is for various private front end test and back end test.
         Have displayed 3D modeling and illustrations, js aninations, project
@@ -136,5 +136,64 @@
 <script>
 export default {
   name: "Home",
+};
+
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = "";
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) {
+    delta /= 2;
+  }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === "") {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName("txt-rotate");
+  for (var i = 0; i < elements.length; i++) {
+    var toRotate = elements[i].getAttribute("data-rotate");
+    var period = elements[i].getAttribute("data-period");
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
 };
 </script>
