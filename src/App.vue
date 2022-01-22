@@ -124,10 +124,10 @@
                     clip-rule="evenodd"
                   />
                 </svg>
-                <a
+                <router-link
+                  to="/achieve"
                   class="hover:text-yellow-500 transition duration-200 ease-linear"
-                  href="#"
-                  >Settings</a
+                  >Achievement</router-link
                 >
               </h3>
             </div>
