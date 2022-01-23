@@ -177,7 +177,7 @@
                     />
                   </svg>
                 </a>
-                <a href="" class="text-white">Login</a>
+                <a href="#/login">Login</a>
               </div>
             </div>
           </head>
@@ -192,6 +192,24 @@
 
 <script>
 export default {
+  create() {
+    this.$http
+      .get("/api/login")
+      .then((res) => {
+        const user = res.data.user;
+        if (user) {
+          this.$store.commit("setUser", user);
+        } else {
+          this.$router.push({ name: "Login" });
+        }
+      })
+      .catch((err) => console.error(err));
+  },
+  computed: {
+    user() {
+      return this.$store.getters.user;
+    },
+  },
   components: {},
   methods: {
     toggle() {

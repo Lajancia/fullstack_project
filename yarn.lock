@@ -1535,7 +1535,7 @@
   optionalDependencies:
     "prettier" "^1.18.2"
 
-"@vue/devtools-api@^6.0.0-beta.18":
+"@vue/devtools-api@^6.0.0-beta.11", "@vue/devtools-api@^6.0.0-beta.18":
   "integrity" "sha512-R2rfiRY+kZugzWh9ZyITaovx+jpU4vgivAEAiz80kvh3yviiTU3CBuGuyWpSwGz9/C7TkSWVM/FtQRGlZ16n8Q=="
   "resolved" "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.20.1.tgz"
   "version" "6.0.0-beta.20.1"
@@ -3326,11 +3326,6 @@
   "resolved" "https://registry.npmjs.org/dayjs/-/dayjs-1.10.7.tgz"
   "version" "1.10.7"
 
-"de-indent@^1.0.2":
-  "integrity" "sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0="
-  "resolved" "https://registry.npmjs.org/de-indent/-/de-indent-1.0.2.tgz"
-  "version" "1.0.2"
-
 "debug@^2.2.0":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
@@ -4822,7 +4817,7 @@
     "inherits" "^2.0.3"
     "minimalistic-assert" "^1.0.1"
 
-"he@^1.1.0", "he@1.2.x":
+"he@1.2.x":
   "integrity" "sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw=="
   "resolved" "https://registry.npmjs.org/he/-/he-1.2.0.tgz"
   "version" "1.2.0"
@@ -9341,20 +9336,12 @@
     "hash-sum" "^1.0.2"
     "loader-utils" "^1.0.2"
 
-"vue-template-compiler@^2.0.0":
-  "integrity" "sha512-ODQS1SyMbjKoO1JBJZojSw6FE4qnh9rIpUZn2EUT86FKizx9uH5z6uXiIrm4/Nb/gwxTi/o17ZDEGWAXHvtC7g=="
-  "resolved" "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.6.14.tgz"
-  "version" "2.6.14"
-  dependencies:
-    "de-indent" "^1.0.2"
-    "he" "^1.1.0"
-
 "vue-template-es2015-compiler@^1.9.0":
   "integrity" "sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw=="
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2 || ^3.0.0-0", "vue@^2.6.0 || ^3.2.0", "vue@^3.0.0", "vue@^3.0.0 || ^2.0.0", "vue@^3.0.0-0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0":
+"vue@^2 || ^3.0.0-0", "vue@^2.2.4", "vue@^2.6.0 || ^3.2.0", "vue@^3.0.0", "vue@^3.0.0 || ^2.0.0", "vue@^3.0.0-0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.0.2", "vue@^3.2.0":
   "integrity" "sha512-VV14HtubmB56uuQaSvLkJZgoocPiN8CJI3zZA9y8h7q/Z5hcknDIFkbq5d8ku0ukZ6AJPQqMsZWcq0qryF0jgg=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.12.tgz"
   "version" "3.2.12"
@@ -9362,11 +9349,6 @@
     "@vue/compiler-dom" "3.2.12"
     "@vue/runtime-dom" "3.2.12"
     "@vue/shared" "3.2.12"
-
-"vue@^2.2.4":
-  "integrity" "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ=="
-  "resolved" "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
-  "version" "2.6.14"
 
 "vue3-perfect-scrollbar@^1.5.5":
   "integrity" "sha512-oC1hHlYdiiirepOIyMn0fG2d+uJS6FcveHBZglTfTPRegrBZPUvfQo4B+b0RMh83HGz5dj24PYS0Rp0WZfiadw=="
@@ -9381,6 +9363,13 @@
   "integrity" "sha512-UABGhn/RbVWpI1mZLQz467o6LkQH6mXg1tPln6lfl5NjzU0HEAPQJK+UptbOzs+/JWewk+oU+alUqW4t/GzQ9Q=="
   "resolved" "https://registry.npmjs.org/vuetrend/-/vuetrend-0.2.3.tgz"
   "version" "0.2.3"
+
+"vuex@^4.0.2":
+  "integrity" "sha512-M6r8uxELjZIK8kTKDGgZTYX/ahzblnzC4isU1tpmEuOIIKmV+TRdc+H4s8ds2NuZ7wpUTdGRzJRtoj+lI+pc0Q=="
+  "resolved" "https://registry.npmjs.org/vuex/-/vuex-4.0.2.tgz"
+  "version" "4.0.2"
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.11"
 
 "watchpack-chokidar2@^2.0.1":
   "integrity" "sha512-nCFfBIPKr5Sh61s4LPpy1Wtfi0HE8isJ3d2Yb5/Ppw2P2B/3eVSEBjKfN0fmHJSK14+31KwMKmcrzs2GM4P0Ww=="

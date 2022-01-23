@@ -1,6 +1,6 @@
 <template>
   <body class="absolute bottom-0 right-0 h-full ">
-    <div class="py-20 mr-10">
+    <div class="my-20 mr-10">
       <div class="text-white">
         <div>
           <h1>Achievement</h1>

@@ -1,6 +1,6 @@
 <template>
   <body class="absolute bottom-0 right-0 h-full ">
-    <div class="py-20 mr-10">
+    <div class="my-20 mr-10">
       <div class="text-white text-6xl pb-5">
         About
         <span class="text-yellow-500">Soomin Hwang</span>
