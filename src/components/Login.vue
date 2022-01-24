@@ -6,7 +6,7 @@
       <p>비밀번호</p>
       <input type="password" name="password" v-model="password" />
       <p></p>
-      <button>로그인</button>
+      <button type="submit">로그인</button>
     </form>
   </div>
 </template>
@@ -19,14 +19,15 @@ export default {
       password: "",
     };
   },
-
   methods: {
     onSubmit() {
+      console.log("submit");
       const id = this.id;
       const password = this.password;
+      console.log(id, password);
       this.$http
         .post(
-          "/api/login",
+          "api/login",
           { id, password },
           { "Content-Type": "application-json" }
         )
@@ -34,7 +35,7 @@ export default {
           if (res.data.user) {
             this.$store.commit("setUser", res.data.user);
             this.$router.push({
-              name: "Home",
+              name: "IndexPage",
             });
           } else if (res.data.message) {
             alert(res.data.message);

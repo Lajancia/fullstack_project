@@ -17,7 +17,7 @@ import store  from './store';
 const app = createApp(App).use(router)
 app.use(store)
 app.use(VueAxios, axios)
-app.use('$http',axios)
+
 app.use(PerfectScrollbar)
 app.use(ElementPlus)
 app.use(VCalendar, {})
