@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="py-10">
     <div v-if="user">
-      <h1>유저</h1>
-      <p>어아다 {{ user.id }}</p>
-      <p>바말번호 {{ user.password }}</p>
+      <h1 class="text-yellow-500 text-6xl py-2">User Information</h1>
+      <p class="text-white text-4xl py-2">ID : {{ user.id }}</p>
+      <p class="text-white text-4xl py-2">PassWord : {{ user.password }}</p>
     </div>
   </div>
 </template>
@@ -48,3 +48,10 @@ export default {
   },
 };
 </script>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+* {
+  font-family: "Do Hyeon", sans-serif;
+}
+</style>

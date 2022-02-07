@@ -1,14 +1,14 @@
 <template>
   <body class="absolute bottom-0 right-0 h-full ">
     <div class="my-20 mx-10 pt-10">
-      <div class="text-white text-6xl mt-10">
+      <div id="main1" class="text-white text-6xl pt-5">
         Hello.
       </div>
-      <div class="text-white text-6xl mb-5">
+      <div id="main2" class="text-white text-6xl mb-5">
         My name is
         <span class="text-yellow-500">Soomin Hwang</span>
       </div>
-      <div class=" flex items-stretch ">
+      <div id="sub" class=" flex items-stretch ">
         <div class="wrapper">
           <h1 class="text-white pr-2 flex text-4xl mb-2">
             I'M
@@ -27,7 +27,7 @@
         summaries and so on. You can freely check out the projects and arts that
         I made. Please understand that some categories are not ready.
       </div>
-      <div class="text-center my-20">
+      <div id="button" class="text-center my-20">
         <a
           href="https://lajanciadev.com/#/resume"
           class="rounded-full text-white text-3xl bg-yellow-500 border-8 border-yellow-500 px-2"
@@ -85,6 +85,21 @@
   }
   100% {
     left: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  #main1 {
+    font-size: 2rem;
+  }
+  #main2 {
+    font-size: 2rem;
+  }
+  #sub {
+    font-size: 1rem;
+  }
+  #button {
+    display: none;
   }
 }
 </style>

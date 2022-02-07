@@ -1,12 +1,14 @@
 <template>
-  <div>
+  <div class="absolute bottom-0 right-0 h-full">
     <form @submit.prevent="onSubmit">
-      <p>아이디</p>
+      <p class="text-white ">아이디</p>
       <input type="text" name="id" v-model="id" />
-      <p>비밀번호</p>
+      <p class="text-white">비밀번호</p>
       <input type="password" name="password" v-model="password" />
       <p></p>
-      <button type="submit">로그인</button>
+      <button type="submit" class="text-white hover:text-yellow-500">
+        로그인
+      </button>
     </form>
   </div>
 </template>
@@ -48,3 +50,10 @@ export default {
   },
 };
 </script>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+* {
+  font-family: "Do Hyeon", sans-serif;
+}
+</style>
