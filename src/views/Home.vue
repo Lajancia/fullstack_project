@@ -29,6 +29,7 @@
       </div>
       <div id="button" class="text-center my-20">
         <a
+          id="button-detail"
           href="https://lajanciadev.com/#/resume"
           class="rounded-full text-white text-3xl bg-yellow-500 border-8 border-yellow-500 px-2"
           >Resume</a
@@ -99,7 +100,10 @@
     font-size: 1rem;
   }
   #button {
-    font-size: 5px;
+    margin-top: 40px;
+  }
+  #button-detail {
+    font-size: 1rem;
   }
   #text {
     font-size: 5px;

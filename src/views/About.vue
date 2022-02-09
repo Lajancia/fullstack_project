@@ -6,6 +6,7 @@
           <vue-flip active-click="" width="200px" height="50px">
             <template v-slot:front class="front">
               <div
+                id="card"
                 class="text-white p-20  bg-gradient-to-r from-yellow-500 to-pink-500 rounded-lg"
               >
                 <div>Park</div>
@@ -13,6 +14,7 @@
             </template>
             <template v-slot:back class="back">
               <div
+                id="card"
                 class="text-yellow-500 p-20  border-2 border-yellow-500 rounded-lg bg-white"
               >
                 <div>WebGL Three.js Blender</div>
@@ -77,6 +79,8 @@
 h1 {
   color: white;
   text-align: center;
+}
+@media (max-width: 420px) {
 }
 </style>
 
