@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <div class="text-white">
+      <div id="text" class="text-white">
         This Webpage is for various private front end test and back end test.
         Have displayed 3D modeling and illustrations, js aninations, project
         summaries and so on. You can freely check out the projects and arts that
@@ -99,7 +99,11 @@
     font-size: 1rem;
   }
   #button {
-    display: none;
+    font-size: 5px;
+  }
+  #text {
+    font-size: 5px;
+    padding-top: 5px;
   }
 }
 </style>
