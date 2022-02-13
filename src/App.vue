@@ -10,9 +10,23 @@
           <div id="block" class="h-screen w-48 px-10 ">
             <div
               id="menu"
-              class="flex flex-col justify-around text-4xl mx-3 py-8 text-yellow-500 "
+              class="flex flex-col justify-around text-4xl py-8 text-yellow-500 "
             >
-              MENU
+              <div>
+                <a
+                  v-if="user"
+                  class="text-yellow-500 hover:text-white"
+                  href="/indexpage"
+                  >{{ user.name }}</a
+                >
+
+                <a
+                  v-else
+                  class="text-white hover:text-yellow-500"
+                  href="/indexpage"
+                  >Login</a
+                >
+              </div>
             </div>
             <div class="h-3/4 flex flex-col justify-around text-white">
               <h3
@@ -30,11 +44,11 @@
                     /></svg
                 ></a>
 
-                <a
+                <router-link
                   id="home"
+                  to="/"
                   class="hover:text-yellow-500 transition duration-200 ease-linear"
-                  href="http://lajanciadev.com/"
-                  >Home</a
+                  >Home</router-link
                 >
               </h3>
               <h3
@@ -205,12 +219,10 @@
                     />
                   </svg>
                 </a>
-                <a class="text-white hover:text-yellow-500" href="#/indexpage"
-                  >Login</a
-                >
               </div>
             </div>
           </head>
+
           <router-view></router-view>
         </div>
 

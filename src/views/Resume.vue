@@ -1,14 +1,14 @@
 <template>
   <body class="absolute bottom-0 right-0 h-full ">
     <div class="my-20 mr-10">
-      <div class="text-white text-6xl pb-5">
-        About
+      <div id="main" class="text-white text-6xl pb-5">
+        <div id="about">About</div>
         <span class="text-yellow-500">Soomin Hwang</span>
       </div>
 
       <perfect-scrollbar>
         <div class="h-96 text-white">
-          <div class="text-3xl">Introduce</div>
+          <div class="text-3xl text-yellow-500">Introduce</div>
           <div>
             안녕하세요. 행동력 있고 계획적인 백엔드 개발자를 꿈꾸는 황수민
             입니다. 개발 트렌드와 디자인에 관심이 많아 다양한 개발 활동과 함께
@@ -23,7 +23,7 @@
             NFT 개발에도 관심을 가지고 개발 활동을 하고 있습니다.
           </div>
           <br />
-          <div class="text-3xl">Education</div>
+          <div class="text-3xl text-yellow-500">Education</div>
           <div>
             한국외국어대학교 (2018 ~ 2021년 6월) | 컴퓨터전자시스템공학부
             (전공심화) 스페인통번역학과 (부전공)
@@ -34,11 +34,12 @@
             기술 융합 과정
           </div>
           <br />
-          <div class="text-3xl">Certification</div>
+          <div class="text-3xl text-yellow-500">Certification</div>
           <div>데이터 분석 준전문가(ADSP)</div>
+          <div>Azure-900</div>
           <div>Toeic 845</div>
           <br />
-          <div class="text-3xl">Stacks</div>
+          <div class="text-3xl text-yellow-500">Stacks</div>
           <div>
             Frontend: HTML, CSS, Vue.js, javascript
             <br />
@@ -51,9 +52,9 @@
             Other: Blender, Procreate
           </div>
           <br />
-          <div class="text-3xl">Projects</div>
+          <div class="text-3xl text-yellow-500">Projects</div>
           <br />
-          <div class="text-3xl">Activities</div>
+          <div class="text-3xl text-yellow-500">Activities</div>
         </div>
       </perfect-scrollbar>
       <div class="text-lg text-white mt-10">
@@ -76,5 +77,17 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
 * {
   font-family: "Do Hyeon", sans-serif;
+}
+
+@media (max-width: 420px) {
+  body {
+    padding-top: 20px;
+  }
+  #main {
+    font-size: 3rem;
+  }
+  #about {
+    display: none;
+  }
 }
 </style>

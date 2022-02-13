@@ -1,15 +1,17 @@
 <template>
-  <div class="absolute bottom-0 right-0 h-full">
-    <form @submit.prevent="onSubmit">
-      <p class="text-white ">아이디</p>
-      <input type="text" name="id" v-model="id" />
-      <p class="text-white">비밀번호</p>
-      <input type="password" name="password" v-model="password" />
-      <p></p>
-      <button type="submit" class="text-white hover:text-yellow-500">
-        로그인
-      </button>
-    </form>
+  <div>
+    <div class="my-10 mx-10 pt-10">
+      <form @submit.prevent="onSubmit">
+        <p class="text-white ">아이디</p>
+        <input type="text" name="id" v-model="id" />
+        <p class="text-white">비밀번호</p>
+        <input type="password" name="password" v-model="password" />
+        <p></p>
+        <button type="submit" class="text-white hover:text-yellow-500">
+          로그인
+        </button>
+      </form>
+    </div>
   </div>
 </template>
 

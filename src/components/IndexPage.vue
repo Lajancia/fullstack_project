@@ -3,29 +3,13 @@
     <div v-if="user">
       <h1 class="text-yellow-500 text-6xl py-2">User Information</h1>
       <p class="text-white text-4xl py-2">ID : {{ user.id }}</p>
-      <p class="text-white text-4xl py-2">PassWord : {{ user.password }}</p>
+      <p class="text-white text-4xl py-2">Name : {{ user.name }}</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  //   data() {
-  //     return {
-  //       user: null,
-  //     };
-  //   },
-  //   created() {
-  //     this.$http
-  //       .get("/api/login")
-  //       .then((res) => {
-  //         const user = res.data.user;
-  //         if (user) {
-  //           this.user = user;
-  //         }
-  //       })
-  //       .catch((err) => console.error(err));
-  //   },
   created() {
     this.$http
       .get("/api/login")
