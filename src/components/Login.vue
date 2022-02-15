@@ -31,7 +31,7 @@ export default {
       console.log(id, password);
       this.$http
         .post(
-          "api/login",
+          "api/auth/login",
           { id, password },
           { "Content-Type": "application-json" }
         )

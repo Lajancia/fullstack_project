@@ -12,7 +12,7 @@
 export default {
   created() {
     this.$http
-      .get("/api/login")
+      .get("api/auth/login")
       .then((res) => {
         const user = res.data.user;
         if (user) {
