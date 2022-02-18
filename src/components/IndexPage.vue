@@ -2,8 +2,8 @@
   <div class="py-10">
     <div v-if="user">
       <h1 class="text-yellow-500 text-6xl py-2">User Information</h1>
-      <p class="text-white text-4xl py-2">ID : {{ user.email }}</p>
-      <p class="text-white text-4xl py-2">Name : {{ user.nick }}</p>
+      <p class="text-white text-4xl py-2">ID : {{ user.data.user.email }}</p>
+      <p class="text-white text-4xl py-2">Name : {{ user.data.user.nick }}</p>
     </div>
     <div v-else class="my-10 mx-10 pt-10">
       <!-- <form @submit.prevent="onSubmit"> -->
@@ -28,8 +28,11 @@ export default {
     this.$http
       .get("/api/auth/login")
       .then((res) => {
-        const user = res.user;
+        const user = res;
         console.log(user);
+        console.log(res);
+        console.log(user.data.user.email);
+
         if (user) {
           this.$store.commit("setUser", user);
         }
