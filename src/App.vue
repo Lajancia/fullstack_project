@@ -17,7 +17,7 @@
                   v-if="user"
                   class="text-yellow-500 hover:text-white"
                   href="/indexpage"
-                  >{{ user.name }}</a
+                  >{{ user.nick }}</a
                 >
 
                 <a
