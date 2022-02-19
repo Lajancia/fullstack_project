@@ -13,19 +13,13 @@
               class="flex flex-col justify-around text-4xl py-8 text-yellow-500 "
             >
               <div>
-                <a
-                  v-if="user"
-                  class="text-yellow-500 hover:text-white"
-                  href="/indexpage"
-                  >{{ user.nick }}</a
-                >
+                <div v-if="user" class="text-yellow-500 hover:text-white">
+                  <a href="api/auth/logout">Logout</a>
+                </div>
 
-                <a
-                  v-else
-                  class="text-white hover:text-yellow-500"
-                  href="/indexpage"
-                  >Login</a
-                >
+                <div v-else class="text-yellow-500 hover:text-white">
+                  <a href="/indexpage">LogIn</a>
+                </div>
               </div>
             </div>
             <div class="h-3/4 flex flex-col justify-around text-white">

@@ -30,7 +30,7 @@
       <div id="button" class="text-center my-20">
         <a
           id="button-detail"
-          href="https://lajanciadev.com/resume"
+          href="/resume"
           class="rounded-full text-white text-3xl bg-yellow-500 border-8 border-yellow-500 px-2"
           >Resume</a
         >
