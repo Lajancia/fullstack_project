@@ -163,7 +163,7 @@
                   id="achieve"
                   to="/achieve"
                   class="hover:text-yellow-500 transition duration-200 ease-linear"
-                  >Achievement</router-link
+                  >My Page</router-link
                 >
               </h3>
             </div>
