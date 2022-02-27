@@ -16,6 +16,9 @@
         <button type="submit" class="text-white hover:text-yellow-500">
           로그인
         </button>
+        <a href="/join" class="ml-3 text-yellow-500 hover:text-white"
+          >회원가입</a
+        >
       </form>
     </div>
   </div>

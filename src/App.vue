@@ -26,7 +26,7 @@
               <h3
                 class="pl-1 text-sm flex items-center py-2 mb-2 text-white hover:text-yellow-500 transition duration-200 ease-in "
               >
-                <a href="http://lajanciadev.com/"
+                <a href="/"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-5 w-5 mr-2"
@@ -38,11 +38,11 @@
                     /></svg
                 ></a>
 
-                <router-link
+                <a
                   id="home"
-                  to="/"
+                  href="/"
                   class="hover:text-yellow-500 transition duration-200 ease-linear"
-                  >Home</router-link
+                  >Home</a
                 >
               </h3>
               <h3
